@@ -101,9 +101,6 @@
 		</span>
 
 	</div>
-
-hola garmy :B
-
 <!-- Saltos-->
 </br>
 </br>
