@@ -34,7 +34,7 @@ public class UsuarioDao {
             if (con != null) {
                 Statement st;
                 st = con.createStatement();
-                st.executeUpdate("call sp_agregaUsuario('" + usuario.getNivel() + "','" + usuario.getNombre() + "','" + usuario.getCorreo() + "',MD5('" + usuario.getContraseña() + "'),'" + usuario.getGenero() + "')");
+                st.executeUpdate("call sp_agregaUsuario('" + usuario.getNivel() + "','" + usuario.getNombre() + "','" + usuario.getCorreo() + "','" + usuario.getContraseña() + "','" + usuario.getGenero() + "')");
                 agregado = true;
                 st.close();
             }

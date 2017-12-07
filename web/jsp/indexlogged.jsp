@@ -36,6 +36,7 @@
 			<input type="button" class = "glass" name="lupa">
 		</span>
 				<span class="person">
+                        <input class="signin2" type="button" name="iconLog" onclick="location='subirVideo.jsp'" readonly>
 			<input class="signin2" type="button" name="iconLog" readonly>
 			<input class="signin3" type="button" name="iconLog" readonly>
 				</span>

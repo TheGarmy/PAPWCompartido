@@ -59,6 +59,7 @@ public class CLogin extends HttpServlet {
                         request.setAttribute("rellenado", "true");
                         request.setAttribute("nivel", busuario.getNivel());
                         request.setAttribute("nombre", busuario.getNombre());
+                        request.setAttribute("idUsuario", busuario.getIdPersona());
                         rd = request.getRequestDispatcher("/jsp/iniciarSesion.jsp");    
                     }
                 } else {
